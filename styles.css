@@ -51,14 +51,17 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 ul {
-    padding: 20px 30px;
-    
+    padding: 10px 30px; 
 }
 
 li {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 30px;
 }
