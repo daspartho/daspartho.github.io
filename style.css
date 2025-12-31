@@ -1,17 +1,35 @@
 body {
-  font-family: monospace;
+  font-family: 'Monaco', monospace;
+  background-color: #f7f6f3;
 }
 
 a:link {
+  color: #FF6B6B;
   text-decoration: none;
 }
 
 a:visited {
-    color: blue;
+  color: #FF6B6B;
+}
+
+a {
+  display: inline-block;
+  transition: transform 0.2s ease;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  transform: translate(2px, -3px);
+}
+
+a[target="_blank"]::after {
+  content: " ↗";
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+a[target="_blank"]:hover::after {
+  transform: translate(3px, -4px);
 }
 
 /* everything below this copied straight from bettermotherfuckingwebsite.com */
@@ -24,3 +42,5 @@ body {
   color:#444;
   padding: 0 10px;
 }
+
+h1,h2,h3{line-height:1.2}
