@@ -19,7 +19,7 @@
       document.querySelectorAll('a[href^="http"]').forEach(a => {
         if (!a.hostname.includes(location.hostname)) {
           const url = new URL(a.href);
-          url.searchParams.set('utm_source', 'invited_by_partho.world');
+          url.searchParams.set('wandered_from', 'partho.world');
           a.href = url;
         }
       });
