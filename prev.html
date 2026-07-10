@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>prev - partho.world</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <style>li{margin:8px 0}</style>
+  </head>
+
+  <body>
+    <h3>2025–2026</h3>
+    <ul>
+      <li>ported rl/eval environments in verifiers to prime intellect's community environments:
+        <ul>
+          <li><a href="https://github.com/PrimeIntellect-ai/community-environments/pull/496" target="_blank">Biomni-R0</a></li>
+          <li><a href="https://github.com/PrimeIntellect-ai/community-environments/pull/265" target="_blank">factorio learning environment</a></li>
+          <li><a href="https://github.com/PrimeIntellect-ai/community-environments/pull/276" target="_blank">AgencyBench</a></li>
+          <li><a href="https://github.com/PrimeIntellect-ai/community-environments/pull/171" target="_blank">TextQuests</a></li>
+          <li><a href="https://github.com/PrimeIntellect-ai/community-environments/pull/315" target="_blank">datasets codebase search</a></li>
+        </ul>
+      </li>
+      <li>worked on a nous research <a href="https://github.com/verl-project/verl/issues/1782" target="_blank">bounty</a> for integrating <a href="https://github.com/verl-project/verl-recipe/pull/61" target="_blank">atropos environments into verl's trainer</a></li>
+      <li>created <a href="https://github.com/daspartho/social-inference" target="_blank">social-inference</a>. llms playing a social deduction game against each other (and humans). <a href="https://partho.world/social-inference/notes.html" target="_blank">notes</a>.</li>
+      <li>experimented with making LLMs work fully in continuous latent space instead of discrete tokens. it didn't work very well, writing up results and learnings.</li>
+      <li>built an <a href="https://github.com/daspartho/autoresearch-rl" target="_blank">rl environment</a> on top of karpathy's autoresearch with continuous scoring and progressive baselines.</li>
+    </ul>
+
+    <h3>2024–2025</h3>
+    <ul>
+      <li>for about a year took a gap. built and flew a radio glider, relearned physics through the feynman lectures, watched a lot of great films, travelled around, etc.</li>
+    </ul>
+
+    <h3>2023–2024</h3>
+    <ul>
+      <li>worked on reducing sycophancy in llms with <a href="https://www.linkedin.com/in/aaron-scher-303b0a19a/" target="_blank">aaron scher</a> and explored rl from language feedback with <a href="https://www.linkedin.com/in/rocamonde" target="_blank">juan rocamonde</a>. this was as part of berkeley ai safety group's <a href="https://sparai.org/" target="_blank">SPAR</a> program.</li>
+      <li>collaborated with folks at <a href="http://aisafetyatucla.org/" target="_blank">ai safety @ ucla</a> on <a href="https://docs.google.com/document/d/1PAdt1xjK1_4CjnYRdcTcQfX3mson7FSQ4W91rcZj8P8/edit?usp=sharing" target="_blank">mechanistic anomaly detection</a>.</li>
+      <li>dived into mechanistic interpretability. <a href="https://github.com/daspartho/pronoun-prediction" target="_blank">investigated</a> circuits in gpt-2 small for pronoun prediction and <a href="https://docs.google.com/document/d/1lWOenqSMl1-zlotj_GYXXu37JgM2McHf-sxAzpIBJkM/edit?usp=sharing" target="_blank">wrote up findings</a>.</li>
+      <li>interned at <a href="https://github.com/anarchy-ai" target="_blank">anarchy</a> (YC W23) as an ml engineer. worked on their <a href="https://github.com/anarchy-ai/LLM-VM" target="_blank">LLM-VM</a> library and its hosted platform.</li>
+      <li>moved to bangalore and after some time started working at <a href="https://dognosis.tech/" target="_blank">dognosis</a> on their multi modal data pipeline. very fun few months with the humans and dogs there.</li>
+    </ul>
+
+    <h3>2022</h3>
+    <ul>
+      <li>started learning ml. created a bunch of things to learn:
+        <ul>
+          <li><a href="https://github.com/daspartho/predict-subreddit" target="_blank">predict subreddit</a></li>
+          <li><a href="https://github.com/daspartho/prompt-extend" target="_blank">prompt extend</a></li>
+          <li><a href="https://github.com/daspartho/MagicMix" target="_blank">MagicMix</a></li>
+          <li><a href="https://github.com/daspartho/bored-ape-diffusion" target="_blank">bored-ape-diffusion</a></li>
+          <li>from scratch implementations of <a href="https://github.com/daspartho/simple-transformer" target="_blank">transformer</a>, <a href="https://github.com/daspartho/simple-clip" target="_blank">CLIP</a>, <a href="https://github.com/daspartho/simple-bert" target="_blank">BERT</a></li>
+        </ul>
+      </li>
+      <li>made lot of small contributions to huggingface's <a href="https://github.com/huggingface/transformers/commits?author=daspartho" target="_blank">transformers</a> and <a href="https://github.com/huggingface/diffusers/commits?author=daspartho" target="_blank">diffusers</a> library.</li>
+      <li>was also working through <a href="https://forums.fast.ai/u/daspartho/summary" target="_blank">fastai's live cohort</a></li>
+    </ul>
+
+
+    <script>
+      document.querySelectorAll('a[href^="http"]').forEach(a => {
+        if (!a.hostname.includes(location.hostname)) {
+          const url = new URL(a.href);
+          url.searchParams.set('wandered_from', 'partho.world/prev');
+          a.href = url;
+        }
+      });
+    </script>
+  </body>
+
+</html>
